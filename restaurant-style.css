@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    justify-content: center;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: rgb(240, 144, 132, 0.8);
+}
+
+h1 {
+    background-color: rgb(240, 144, 132, 0.8);
+    height: 90px;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.review {
+    width: 410px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.review img {
+    width: 410px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.review h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.review h3:hover,
+.review h3 :active {
+    text-decoration: underline;
+}
+
+.review p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review h4 {
+    float: right;
+    text-align: right;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textblock {
+    position: absolute;
+    background-color: rgb(255,255,255,0.45);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.overlay {
+	position: relative;
+	display: inline-block;
+    overflow: hidden;
+    width: 410px;
+    height: 300px;
+}
+
+.overlay img {
+    max-width: 100%;
+}
+
+.overlay .overlay-layer_top {
+    position: absolute;
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    -moz-transition: all 0.5s ease-in-out 0s;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	-ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.overlay:hover .overlay-layer_top {
+    opacity: 1;
+}
+
+.maps a {
+    color: white;
+    text-decoration: none;
+}
+
+.maps:hover {
+    text-decoration: underline;
+}
+
+.divider{
+    position: absolute;
+    display: inline-block;
+    border-left: 1px solid black;
+    margin: 100px;
+    height: 700px;
+}
+
+.next {
+    background-color: rgb(240, 144, 132, 0.8);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 1295px;
+    padding: 20px;
+}
+
+.next:hover {
+    background-color: rgba(255, 137, 137, 0.8);
+}
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(240, 144, 132, 0.8);
+    color: white;
+    height: 80px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: navy;
+}

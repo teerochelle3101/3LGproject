@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Have Your Say!</title>
+    <link rel="stylesheet" href="./CSS/form-style.css">
+</head>
+
+<body>
+    <header class="text">
+        <nav>
+            <ul>
+              <li><a href="../Home Page/index.html">Home</a></li>
+              <li><a href="../aboutpage/Aboutpage.html">About The Critics</a></li>
+              <li><a href="../Restaurants/restaurant.html">Restaurants</a></li>
+              <li><a href="../Form/form.html">Have Your Say</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>HAVE YOUR SAY!</h1>
+        <h2>Do you have a restaurant you would like us to review? If so, keep scrolling</h2>
+        <div>
+            <img class="banner" src="https://www.creativegroupinc.com/wp-content/uploads/2017/07/dinner-table-banner-1200x374.jpg" alt="A group dining table with a food spread.">
+        </div>
+        
+        <h2> Please fill in the form below: </h2>
+        <div class="container margin">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="contact">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="contact" name="email" placeholder="Your email...">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="restaurant">Restaurant</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="restaurant" name="restaurant" placeholder="Name of Restaurant...">
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="comment">Additional Comments</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="comment" placeholder="Write any additional comments here..." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+    
+    </main>
+    <br>
+    <br>
+
+    <footer class="center">
+      <p class="big">
+          © 2020 Authors: Tia, Chloe and Yi Yi. 
+      <br>
+      Contact us at: <a href="mailto:girls@example.com">girls@example.com</a>
+      </p>
+    </footer>
+
+</body>
+</html>
